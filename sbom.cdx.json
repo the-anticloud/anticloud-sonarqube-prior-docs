@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b023a279-b545-5b25-8e98-bb8a289ed3f2",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T17:44:27Z",
+    "component": {
+      "type": "application",
+      "name": "SONARQUBE_PRIOR_DOCS",
+      "version": "f44f2e2d1774",
+      "bom-ref": "pkg:generic/anticloud/SONARQUBE_PRIOR_DOCS@f44f2e2d1774",
+      "purl": "pkg:generic/anticloud/SONARQUBE_PRIOR_DOCS@f44f2e2d1774",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "f44f2e2d1774c1fd9cc021474032b0fcbc51a882"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/SonarSource/sonarqube"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
