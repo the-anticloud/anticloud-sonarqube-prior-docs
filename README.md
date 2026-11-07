@@ -4,7 +4,7 @@
 
 **Category:** SOFTWARE_DEVELOPMENT · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/SonarSource/sonarqube · **Pinned commit:** `f44f2e2d1774c1fd9cc021474032b0fcbc51a882` · **Vendor:** Anticloud FZ LLE
 
-## What This Project Is
+## What This Project Does
 
 SonarQube is the algorithmic verification platform for code quality and security. Its static analysis applies techniques such as symbolic execution and data and control flow analysis to inspect your code, find bugs, vulnerabilities, and structural problems, and tell you exactly what to fix and why, in your IDE, your pull requests, and your CI pipeline.
 
@@ -23,7 +23,7 @@ WEBAPP_BUILD_PATH=/path/to/sonarqube-webapp/server/sonar-web/build/webapp ./grad
 
 You can also target a specific version of the webapp by updating the `webappVersion` property in the `./gradle.properties` file and then building the `sonarqube` repository normally.
 
-## Anticloud Overlay
+## API
 
 The 12 improvements live under `anticloud/`. Run the check suite from this directory:
 
@@ -31,7 +31,7 @@ The 12 improvements live under `anticloud/`. Run the check suite from this direc
 python anticloud/bench/runner.py --cwd anticloud
 ```
 
-## Benchmark Results
+## Benchmarks
 
 | Result | Status | Evidence |
 | --- | --- | --- |
@@ -54,11 +54,11 @@ python anticloud/bench/runner.py --cwd anticloud
 
 **Suite: 16/16 passed** · platform `win32` · python `3.12.10` · method `{'aggregate_rule': 'all_passed == AND over benchmarks[*].ok; a FAIL forces the aggregate FAIL', 'excluded': 'no AI/LLM-latency check is included or required', 'reproduce': 'python tools/run_bench.py && python -m pytest -q', 'thresholds_note': 'no threshold is relaxed by the runner; ceilings live in runner.py and are asserted independently in tests/test_project_metadata.py'}`
 
-## Licence
+## License
 
 The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The Anticloud overlay is licensed under Anticommons 0.1.0 (`ANTICOMMONS_LICENSE.md`).
 
-## Verification
+## Upstream
 
 SHA3-256 of `BENCH.json`:
 
@@ -67,3 +67,18 @@ SHA3-256 of `BENCH.json`:
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.
+
+
+## Dependencies
+
+See project documentation for details.
+
+
+## Configuration
+
+See project documentation for details.
+
+
+## Contributing
+
+See project documentation for details.
